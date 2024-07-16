@@ -1,0 +1,28 @@
+{
+    "name": "yuxiaobo/think-fast-validate",
+    "description": "thinkphp6 or thinkphp8 fast validate basis class",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "think\\test\\validate\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "余小波",
+            "email": "yuxiaobo64@gmail.com"
+        }
+    ],
+    "require": {
+        "topthink/framework": "^6.0 || ^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
